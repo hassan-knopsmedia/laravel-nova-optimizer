@@ -1,5 +1,5 @@
 {
-    "name": "chinleung/laravel-nova-optimizer",
+    "name": "hassan-knopsmedia/laravel-nova-optimizer",
     "description": "A package to optimize performance of Laravel Nova classes.",
     "keywords": [
         "chinleung",
@@ -7,7 +7,7 @@
         "laravel-nova",
         "laravel-nova-optimizer"
     ],
-    "homepage": "https://github.com/chinleung/laravel-nova-optimizer",
+    "homepage": "https://github.com/hassan-knopsmedia/laravel-nova-optimizer",
     "license": "MIT",
     "type": "library",
     "authors": [
