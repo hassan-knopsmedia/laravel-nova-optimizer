@@ -1,5 +1,5 @@
 {
-    "name": "hassan/laravel-nova-optimizer",
+    "name": "hassan-knopsmedia/laravel-nova-optimizer",
     "description": "A package to optimize performance of Laravel Nova classes.",
     "keywords": [
         "chinleung",
