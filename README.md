@@ -12,7 +12,7 @@ A package to optimize performance of Laravel Nova classes.
 You can install the package via composer:
 
 ```bash
-composer require hassan-knopsmedia/laravel-nova-optimizer
+composer require hassan/laravel-nova-optimizer
 ```
 
 ### Testing
