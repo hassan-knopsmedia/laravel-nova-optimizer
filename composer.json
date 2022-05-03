@@ -1,47 +1,61 @@
 {
-    "name": "chinleung/laravel-nova-optimizer",
-    "description": "A package to optimize performance of Laravel Nova classes.",
-    "keywords": [
-        "chinleung",
-        "laravel",
-        "laravel-nova",
-        "laravel-nova-optimizer"
-    ],
-    "homepage": "https://github.com/chinleung/laravel-nova-optimizer",
-    "license": "MIT",
-    "type": "library",
-    "authors": [
-        {
-            "name": "Chin Leung",
-            "email": "hello@chinleung.com",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "php": "^7.4|^8.0",
-        "illuminate/support": "^6.0|^7.0|^8.0",
-        "laravel/nova": "^3.0"
-    },
-    "require-dev": {
-        "orchestra/testbench": "^4.0",
-        "phpunit/phpunit": "^8.0"
-    },
-    "autoload": {
-        "psr-4": {
-            "ChinLeung\\LaravelNovaOptimizer\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "ChinLeung\\LaravelNovaOptimizer\\Tests\\": "tests"
-        }
-    },
-    "scripts": {
-        "test": "vendor/bin/phpunit",
-        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
-
-    },
-    "config": {
-        "sort-packages": true
-    }
+  "name": "hassan-knopsmedia/laravel-nova-optimizer",
+  "description": "A package to optimize performance of Laravel Nova classes.",
+  "keywords": [
+	"hassan-knopsmedia",
+	"laravel",
+	"laravel-nova",
+	"laravel-nova-optimizer"
+  ],
+  "homepage": "https://github.com/hassan-knopsmedia/laravel-nova-optimizer",
+  "license": "MIT",
+  "type": "library",
+  "repositories": [
+	{
+	  "type": "package",
+	  "package": {
+		"name": "hassan-knopsmedia/laravel-nova-optimizer",
+		"version": "master",
+		"source": {
+		  "url": "https://github.com/hassan-knopsmedia/laravel-nova-optimizer.git",
+		  "type": "git",
+		  "reference": "master"
+		}
+	  }
+	}
+  ],
+  "authors": [
+	{
+	  "name": "Chin Leung",
+	  "email": "hello@chinleung.com",
+	  "role": "Developer"
+	}
+  ],
+  "require": {
+	"php": "^7.4|^8.0",
+	"illuminate/support": "^6.0|^7.0|^8.0",
+	"laravel/nova": "^3.0",
+	"hassan-knopsmedia/laravel-nova-optimizer": "master"
+  },
+  "require-dev": {
+	"orchestra/testbench": "^4.0",
+	"phpunit/phpunit": "^8.0"
+  },
+  "autoload": {
+	"psr-4": {
+	  "ChinLeung\\LaravelNovaOptimizer\\": "src"
+	}
+  },
+  "autoload-dev": {
+	"psr-4": {
+	  "ChinLeung\\LaravelNovaOptimizer\\Tests\\": "tests"
+	}
+  },
+  "scripts": {
+	"test": "vendor/bin/phpunit",
+	"test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+  },
+  "config": {
+	"sort-packages": true
+  }
 }
